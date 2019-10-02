@@ -15,7 +15,6 @@ function increaseRankBy(n) {
   let ranks = document.querySelectorAll('.ranked-list');
   for(let i = 0; i < ranks.length; i++) {
     let rank = ranks[i];
-    console.log(`----> ${rank.innerHTML}`);
     let children = rank.children;
     console.log(`${children.innerHTML} ------->`)
     // console.log(children + '------------->')
