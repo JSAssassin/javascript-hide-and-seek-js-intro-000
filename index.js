@@ -22,7 +22,7 @@ function increaseRankBy(n) {
       let child = children[j];
 
       console.log(`${child.textContent} ------->`)
-
+      let result = child.textContent + n;
     }
 
   }
