@@ -17,6 +17,7 @@ function increaseRankBy(n) {
     let rank = ranks[i];
     console.log(`----> ${rank.innerHTML}`);
     let children = rank.children;
+    console.log(`${children.innerHTML} ------->`)
     // console.log(children + '------------->')
   }
 }
