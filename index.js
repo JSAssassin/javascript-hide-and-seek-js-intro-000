@@ -23,6 +23,7 @@ function increaseRankBy(n) {
 
       console.log(`${child.textContent} ------->`)
       let result = parseInt(child.textContent) + n;
+      return result;
     }
 
   }
