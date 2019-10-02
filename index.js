@@ -13,5 +13,7 @@ function deepestChild() {
 
 function increaseRankBy(n) {
   let ranks = document.querySelectorAll('.ranked-list');
-  console.log("------------------>" + JSON.stringify(ranks));
+  ranks.forEach(element => {
+    console.log(element + '------------->');
+  })
 }
