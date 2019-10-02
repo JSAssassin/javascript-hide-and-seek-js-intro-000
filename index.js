@@ -1,7 +1,16 @@
-function getFirstSelector(selector){
+function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
 
 function nestedTarget(){
-  document.querySelector('#nested' .target)
+  return document.querySelector('#nested .target');
+}
+
+function deepestChild() {
+  let x = document.querySelectorAll('#grand-node div');
+  return x[x.length - 1];
+}
+
+function increaseRankBy(n) {
+
 }
