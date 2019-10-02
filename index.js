@@ -19,7 +19,7 @@ function increaseRankBy(n) {
 
     let children = rank.children;
     for(let j = 0; j < children.length; j++) {
-      let child = children[i];
+      let child = children[j];
 
       console.log(`${child.textContent} ------->`)
 
